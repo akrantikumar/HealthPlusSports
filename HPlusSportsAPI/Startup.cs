@@ -31,7 +31,7 @@ namespace HPlusSportsAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "HPlusSports API Dev Kranti",
+                    Title = "HPlusSports API [Dev]",
                     Version = "1.0",
                     Description = "Product API for HPlusSports Dev Kranti"
                 });
