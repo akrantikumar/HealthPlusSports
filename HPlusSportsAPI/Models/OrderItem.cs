@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
 
-namespace HPlusSportsWeb.Models
+namespace HPlusSportsAPI.Models
 {
+    /// <summary>
+    /// A single item in an order. It may have size so we 
+    /// include it here.
+    /// </summary>
     public class OrderItem
     {
         public string Id { get; set; }
@@ -14,7 +17,6 @@ namespace HPlusSportsWeb.Models
 
         public int Quantity { get; set; }
 
-	[DisplayFormat(ConvertEmptyStringToNull = false)]
         public string Size { get; set; }
     }
 }
